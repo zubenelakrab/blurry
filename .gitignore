@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Calibration files (user-specific)
+.blurry-calibration.json
+.blurry-patch-calibration.json
+
+# Test results
+test*.json
+results.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Output directories
+blurry/
+review/
+output/

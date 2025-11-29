@@ -1,0 +1,64 @@
+{
+  "name": "@zubenelakrab/blurry-filter",
+  "version": "0.1.0",
+  "description": "Intelligent blur detection for RAW camera files. Perfect for wildlife and aviation photographers.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "blurry-filter": "./bin/blurry-filter.js"
+  },
+  "scripts": {
+    "start": "node bin/blurry-filter.js",
+    "calibrate": "node bin/calibrate.js",
+    "test": "node --test",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "raw",
+    "nef",
+    "cr2",
+    "cr3",
+    "arw",
+    "dng",
+    "blur",
+    "blur-detection",
+    "focus",
+    "sharpness",
+    "photography",
+    "wildlife",
+    "aviation",
+    "image-processing",
+    "image-analysis",
+    "camera",
+    "nikon",
+    "canon",
+    "sony",
+    "cli",
+    "batch-processing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zubenelakrab/blurry-filter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zubenelakrab/blurry-filter/issues"
+  },
+  "homepage": "https://github.com/zubenelakrab/blurry-filter#readme",
+  "author": "Pablo Aguilar <ruthenford@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5",
+    "exiftool-vendored": "^28.6.0",
+    "commander": "^12.1.0",
+    "chalk": "^5.3.0",
+    "ora": "^8.1.1",
+    "cli-table3": "^0.6.5",
+    "glob": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.16.0"
+  }
+}
