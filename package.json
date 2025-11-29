@@ -38,12 +38,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zubenelakrab/blurry-filter.git"
+    "url": "https://github.com/zubenelakrab/blurry.git"
   },
   "bugs": {
-    "url": "https://github.com/zubenelakrab/blurry-filter/issues"
+    "url": "https://github.com/zubenelakrab/blurry/issues"
   },
-  "homepage": "https://github.com/zubenelakrab/blurry-filter#readme",
+  "homepage": "https://github.com/zubenelakrab/blurry#readme",
   "author": "Pablo Aguilar <ruthenford@gmail.com>",
   "license": "MIT",
   "engines": {
