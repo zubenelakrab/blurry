@@ -1,11 +1,11 @@
 {
-  "name": "@zubenelakrab/blurry-filter",
+  "name": "@zubenelakrab/blurry",
   "version": "0.1.0",
   "description": "Intelligent blur detection for RAW camera files. Perfect for wildlife and aviation photographers.",
   "type": "module",
   "main": "src/index.js",
   "bin": {
-    "blurry-filter": "./bin/blurry-filter.js"
+    "blurry": "./bin/blurry-filter.js"
   },
   "scripts": {
     "start": "node bin/blurry-filter.js",

@@ -21,7 +21,7 @@ npm install
 Or install globally:
 
 ```bash
-npm install -g blurry-filter
+npm install -g @zubenelakrab/blurry
 ```
 
 ## Quick Start
@@ -57,7 +57,7 @@ npm start /path/to/photos -- \
 ## Command Line Options
 
 ```
-Usage: blurry-filter [directory] [options]
+Usage: blurry [directory] [options]
 
 Arguments:
   directory                      Directory to scan (or single file path)
